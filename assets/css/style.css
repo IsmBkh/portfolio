@@ -1,0 +1,54 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(rgb(255, 255, 255), transparent), url(../img/ordi-code.jpg); /*définit l'image de fond de l'élément en un dégradé linéaire avec une couleur de rgba(0, 0, 0, 0.486) en haut et transparente en bas, et une image d'hôtel.  */
+  display: flex; /* Tous ses enfants deviennent flex */
+  flex-direction: column; /* définit la propriété flex-direction en "colonne", ce qui signifie que les éléments flex seront empilés verticalement */
+  text-align: center; /* définit l'ALIGNEMENT DU TEXTE de l'élément au centre */
+  justify-content: center; /* définit l'ALIGNEMENT HORIZONTAL des éléments flex au centre dans le conteneur flex */
+  align-items: center; /* définit l'ALIGNEMENT VERTICAL des éléments flex au centre dans le conteneur flex*/
+  /* height: calc(100vh - $header-height); Je veux que la class hero prenne tte la page - la taille du header  */
+  background-size: cover; /* définit l'image de fond pour COUVRIR TOUT L'ELEMENT */
+  background-position: center; /* définit la position de l'image de fond pour être centrée dans l'élément */
+  padding: 20px; /* Espacement intérieur */
+  color: #000000;
+  height: 300px;
+}
+
+.hero h1 {
+  border-style: dotted;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+main .about {
+  display: flex;
+  flex-direction: column;
+  margin: 9em 3em;
+  align-items: center;
+  gap: 3em;
+}
+
+main .about .info {
+  display: flex;
+  width: 70%;
+  gap: 3em;
+  flex-direction: row;
+  margin: 1em;
+}
+
+main .about .info div:first-child {
+  box-shadow: 0px 0px 9px 2px rgba(221, 221, 221, 0.5294117647);
+  margin: 1em 0em;
+  padding: 0px 1em;
+  transition: 0.6s ease-out;
+  line-height: 2em;
+}/*# sourceMappingURL=style.css.map */
