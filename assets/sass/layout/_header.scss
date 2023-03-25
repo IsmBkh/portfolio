@@ -1,0 +1,11 @@
+header nav a {
+    padding: 0;
+    margin: 3px 12px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    opacity: 50%;
+    border-bottom: 1px solid black;
+    transform: scale(1.1);
+}
